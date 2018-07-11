@@ -1,0 +1,43 @@
+import os
+
+os.system('clear')
+
+bandMate = "ringo"
+#length of name
+print("The name is this long: ", len(bandMate))
+
+#Name in uppercase
+print (bandMate.upper())
+
+#Name in lowercase
+print(bandMate.lower())
+
+#Middle Letter
+print(bandMate[2])
+
+#2nd-4th letters
+print (bandMate[1:3])
+
+#right of letter n
+print(bandMate[3:])
+
+#Challenges
+print(bandMate.upper()[0])
+
+newName = input("1st name?")
+newName1 = input("2nd name?")
+newName2 = input("3rd name?")
+
+#print (input("Enter 3 names.", newName , newName1 , newName2))
+
+print("The entered string is", len(newName) ,"long")
+
+print(newName.upper())
+
+if len(newName)> len(bandMate):
+    print(newName , "is longer in length then", bandMate)
+elif len(bandMate)> len(newName):
+    print(bandMate, "has longer length then", newName)
+
+
+
